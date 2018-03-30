@@ -15,7 +15,7 @@ text += open(path3).read()
 gen_text_len = 2000
 temperature = 1.2
 maxlen = 100
-model = load_model('starwars_trek.h5')
+model = load_model('starwars.h5')
 
 chars = sorted(list(set(text)))
 

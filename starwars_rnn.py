@@ -83,4 +83,4 @@ for epoch in range(1, 100):
       sys.stdout.write(next_char)
       sys.stdout.flush()
     print()
-  model.save('starwars_trek.h5')
+  model.save('starwars.h5')
