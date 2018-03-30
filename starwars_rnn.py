@@ -17,7 +17,7 @@ print('Corpus Length:' , len(text))
 
 maxlen = 100
 step = 3
-
+batch_size = 512
 sentences = []
 next_chars = []
 
@@ -56,7 +56,7 @@ def sample(preds, temperature=1.0):
 for epoch in range(1, 100):
   print('epoch', epoch)
   # Fit the model for 1 epoch on the available training data
-  model.fit(x, y,batch_size=128,epochs=1)
+  model.fit(x, y,batch_size=batch_size,epochs=1)
   
   # Select a text seed at random
   start_index = random.randint(0, len(text) - maxlen - 1)
