@@ -1,7 +1,7 @@
 # StarWarsScriptGenerator_Keras
 
 Uses LSTM network to read dialogue scripts for Star Wars Episodes IV, V, and VI and 
-generates new dialogue. 
+generates new dialogue. Trained on my Alienware laptop with a NVIDIA GTX 1070 GPU. Results can be improved with more training time on a more powerful computer.
 
 SAMPLE
 
